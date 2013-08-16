@@ -1,0 +1,1 @@
+Select username, email1, start_date, salary, companies.company_name FROM employee_info JOIN companies ON employee_info.Companies_id = Companies.id WHERE permission_level='admin';
